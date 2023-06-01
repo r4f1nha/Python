@@ -2,9 +2,9 @@ contador = 1
 
 while contador == 1:
 
-    num1 =input ('Digite o primeiro numero ')
+    num1 =input ('Digite o primeiro numero: ')
     print ('')
-    num2 =input ('Digite o segundo numero ')
+    num2 =input ('Digite o segundo numero: ')
     print ('')
 
     if num1.isnumeric() and num2.isnumeric():
