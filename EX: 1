@@ -1,0 +1,17 @@
+contador = 1
+
+while contador == 1:
+
+    num1 =input ('Digite o primeiro numero ')
+    print ('')
+    num2 =input ('Digite o segundo numero ')
+    print ('')
+
+    if num1.isnumeric() and num2.isnumeric():
+        print(int(num1) + int(num2))
+        print('')
+        contador = 0
+
+    else:
+        print('Não é possivel somar texto. \nDigite os numeros novamente.')
+        print ('')
