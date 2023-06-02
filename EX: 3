@@ -1,0 +1,28 @@
+contador = 1
+
+while contador == 1:
+
+    num1 =input ('Digite o valor do seu salario: ')
+    print ('')
+    num2 =input ('Digite a porcentagem do aumento em seu salario: ')
+    print ('')
+
+    num1 = num1.replace(',', '.', 1)
+    num2 = num2.replace(',', '.', 1)
+
+    if num1.replace('.', '', 1).isnumeric() and num2.replace('.', '', 1).isnumeric():
+
+        num1 = float(num1)
+        num2 = float(num2)
+
+        aumento = (num1 * num2) / 100
+        salario = num1 + aumento
+
+
+        print('O seu novo salario será de: {} reais!'.format(salario))
+        print('')
+        contador = 0
+
+    else:
+        print('Não é possivel inserir texto. \nDigite o salario e a porcentagem de aumento novamente.')
+        print ('')
