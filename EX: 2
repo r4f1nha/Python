@@ -1,0 +1,21 @@
+contador = 1
+
+while contador == 1:
+
+    num1 =input ('Digite o valor em metros: ')
+    print ('')
+
+    num1 = num1.replace(',', '.', 1)
+
+
+    if num1.replace('.', '', 1).isnumeric():
+
+        num1 = (float(num1) * 1000)
+
+        print('O valor em milímetros é: {}!'.format(num1))
+        print('')
+        contador = 0
+
+    else:
+        print('Não é possivel somar texto. \nDigite os numeros novamente.')
+        print ('')
