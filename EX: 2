@@ -17,5 +17,5 @@ while contador == 1:
         contador = 0
 
     else:
-        print('Não é possivel somar texto. \nDigite os numeros novamente.')
+        print('Não é possivel inserir texto. \nDigite o valor em novamente.')
         print ('')
