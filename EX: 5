@@ -1,0 +1,6 @@
+import sys
+
+sys.set_int_max_str_digits(5000)
+
+print('2 elevado a 1 milhão tem %d dígitos' % len(str(2 ** 1000000)))
+print('O número máximo de dígitos em um inteiro é: %d' % sys.int_info.max)
